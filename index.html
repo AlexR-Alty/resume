@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="vladilen, cv, resume">
+  <meta name="description" content="Это сайт - резюме Владилена Минина">
+  <title>Aleksander K. Resume</title>
+  
+  <style>
+            @media (max-width: 500px) { /* уменьшает размеры при маленьком экране */
+            .container{
+                font-size: 0.7rem;
+                padding: 10px;
+                /* text-align: center; */
+            }
+        }
+  </style>
+
+  <link rel="stylesheet" 
+  href="02_selectors.css">
+
+</head>
+<body>
+
+  <div class="container">  
+    
+    <div class="beta">
+      <div class="block_01">        
+        <img src="DerVater.png" alt="Aleksander K" 
+        width="300">      
+      </div>
+    
+      <div id="block_0" class="block_02">
+        <h1>Aleksander Kolyada</h1>
+    
+        <p>Я люблю <em>
+          <br>
+          путешествовать, 
+          заниматься спортом, изучать всё новое</em>
+        </p>
+      </div>
+    </div>  
+     
+    <div id="block_1" class="card html">
+      <h2>Список социальных сетей:</h2>
+      <br>
+
+      <a href="https://www.instagram.com" 
+      class="btn"
+      target="_blank">Instagram</a>
+      
+      <a href="https://t.me" 
+      class="btn"
+      target="_blank">Telegram</a>
+      
+      <a href="https://www.youtube.com" 
+      class="btn"
+      target="_blank">Youtube</a> 
+      
+      <br>
+      <br>
+      <br> 
+    
+    <nav class="navbar">
+  
+    <a href="https://www.instagram.com" 
+    class="alfa"
+    target="_blank">Instagram</a>
+    
+    <a href="https://t.me"
+    class="alfa" 
+    target="_blank">Telegram</a>
+    
+    <a href="https://www.youtube.com"
+    class="alfa" 
+    target="_blank">Youtube</a>
+
+  </nav>
+
+    </div>
+  
+    <div id="block_2" class="card css">
+      <h2>Мои хобби</h2>
+      <ol>
+        <li>Путешествия</li>
+        <li>Теннис</li>
+        <li>Сноуборд / Горные лыжи</li>
+        <li>Беговые лыжи</li>
+      </ol>
+    </div>
+  
+    <div id="block_3" class="card borders">
+      <h2>Опыт работы</h2>
+  
+    <table id="customers" class="table">
+      <thead>
+        <tr>
+          <th>Должность</th>
+          <th>Подразделение</th>
+          <th>Период</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Инженер</td>
+          <td>Электротехническая лаборатория</td>
+          <td>2015-2016</td>
+        </tr>
+        <tr>
+          <td>Ведущий инженер</td>
+          <td>Электротехническая лаборатория</td>
+          <td>2016-2017</td>
+        </tr>
+        <tr>
+          <td>Руководитель</td>
+          <td>Электротехническая лаборатория</td>
+          <td>2017 - сейчас</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+    
+    <div id="block_4" class="card fonts">
+      <h2>Связаться со мной</h2>
+  
+      <form action="/">
+        <div>
+          <label for="name">Ваше имя:</label>
+          <input type="text" id="name" placeholder="Введите имя">
+        </div>
+    
+        <div>
+          <label for="email">Ваш email:</label>
+          <input type="email" id="email" placeholder="Введите email">
+        </div>
+    
+        <div>
+          <label for="message">Ваше сообщение:</label>
+          <br>
+          <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+        </div>
+    
+        <input type="submit" value="Отправить!">
+      </form>
+    </div>    
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,176 @@
+/* Tag Name */
+body{
+    background:#F0FFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.container{
+    /* width: 400px; */
+    max-width: 750px;
+    margin: auto;
+  }
+
+h1{
+    color: #ff0000;
+    text-decoration: underline; /* подчеркивание */
+    text-align: center;
+}
+
+h2{text-decoration: underline;}
+
+/* Tag Class */
+.card{
+    padding: 15px 20px;
+    background: #F5F5DC;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #dddfde;
+    border-radius: 20px;
+    box-shadow: 19px 9px 15px 6px rgba(0, 0, 0, 0.5);  
+}
+.css{
+    /* background: orange; */
+    color: white;
+}
+.html{
+    background: red;
+    color: white;
+}
+.block_01{
+    background: #F0FFFF;
+    /* margin: 10px; */
+    padding: 5px;
+    /* padding-bottom: 10px; */
+    /* padding-top: 10px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    /* margin-left: 0; */
+    margin-bottom: 10px;
+    /* margin-top: 5px; */
+    /* margin-right: 5px; */
+    /* padding: 5px; */
+    /* padding-left: 0px; */
+    box-shadow: 19px 9px 15px 6px rgba(0, 0, 0, 0.5);  
+    /* border-radius: none; */
+        /* width: 400px; */
+        max-width: 300px;
+    /* margin: auto; */
+  }
+  
+  .beta{
+    display: flex;
+    
+    }
+    .block_02{
+        margin: 0%;
+        margin-left: 10px;
+        padding-left: 20px;
+        width: 50%;
+        border-radius: 0%;
+        height: 0px;
+        background: none;
+    }
+
+/* Id */
+
+#block_1{
+    background: #ddd;
+    border-style: solid;
+    border-width: 2px;
+    /* border-color: #04AA6D; */
+    /* border-radius: 5px; */
+}
+#block_1 h2{
+    color: #111;
+
+#block_2{
+    background: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-width: 2px;
+    /* border-color: #04AA6D; */
+    /* border-radius: 5px; */
+    font-weight: bold;
+    /* width: 100%; заполняет по ширине страницы */
+    color: #111;   
+}
+
+}
+#block_2 {color: #111;}
+
+#block_3{background: #DCDCDC;}
+
+#block_4{background: #ADD8E6;}
+
+/* Таблица */
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%; /* заполняет по ширине страницы */
+  }
+  #customers td, #customers th {
+    border: 1px solid #111; /* границы ячеек таблицы */
+    padding: 8px; /* высота ячеек таблицы */
+  }
+  
+  .table{
+    text-align:left; /* выравнивание текста в ячйках таблицы */
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #2dd125;} /* подкрашивает строку таблицы при наведении курсора */
+  
+  #customers th {  /* заголовок таблицы */
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+a{
+    color: #111;
+    text-decoration: none;
+    /* transition: all .2s; */ /* задержка срабатывания */
+}
+
+a:hover{
+    color: red; /* меняется цвет ссылки */
+    /* font-size: 2rem; */
+}
+
+a:active{
+    color: blue; 
+}
+
+.btn{
+    background: #111111;
+    padding: 15px 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: inherit;
+}
+
+.btn:hover{ 
+    opacity: 0.8; /* прозрачность уменьшается */
+    /* color: orange; */
+}
+
+.navbar{
+    color: blue;
+    /* width: 1px; */
+    /* opacity: 0.8; */
+}
+.alfa{
+    padding: 15px 10px;
+}
+
+
+
+
